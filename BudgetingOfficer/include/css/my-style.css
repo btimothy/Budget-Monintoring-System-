@@ -1,0 +1,59 @@
+#title {
+    margin-top: 8px;
+    background-color:  #f1eae8;
+    color: #000;
+    align-items: center;
+
+}
+#menu {
+    border-top: solid  #e8e8e8;
+    background-color: #e8e8e8;
+    color: #fff;
+   height: 1000px;
+}
+
+#menu a {
+    background-color: ;
+    color: #000000;
+    text-decoration: none;
+    display: block;
+}
+#menu a:hover {
+    background-color: #fff;
+    color: #000000;
+    text-decoration:none;
+    display: inline-flex;
+
+    text-decoration-color: none;
+}
+
+#content {
+    background-color: #fff ;
+    width: 1010px;
+
+}
+
+#mytable table,tbody,tr,td:hover{
+    
+
+}
+div.dataTables_wrapper {
+        width: 1000px;
+        margin: 0 auto;
+    }
+    .modal-ku {
+  width: 750px;
+  margin: auto;
+}
+
+#footer {
+    margin_top: 20px;
+    text-align: center;
+    background-color: rgb(171, 182, 214);
+    color: #000;
+
+
+}
+
+
+

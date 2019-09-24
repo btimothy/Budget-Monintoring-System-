@@ -1,0 +1,73 @@
+// Additional Text Helper Class
+.smaller {
+  font-size: 0.7rem;
+}
+
+// Helper class for the overflow property
+.o-hidden {
+  overflow: hidden !important;
+}
+
+// Helper classes for z-index
+.z-0 {
+  z-index: 0;
+}
+
+.z-1 {
+  z-index: 1;
+}
+
+
+
+
+<!--   <div class="form-group">
+           <label for="exampleInput">Project Officer:</label>
+            <input type="text" class="form-control" id="name" aria-describedby="phone" name="poff" required="">
+           </div>
+
+           <div class="form-group">
+           <label for="exampleInput">Project Objective:</label>
+            <input type="text" class="form-control" id="name" aria-describedby="phone" name="pbj" required="">
+           </div>
+           <div class="form-group">
+              <label for="exampleInputName2">Project Description:</label>
+              <textarea name="descrpt"  rows="3" required=""></textarea>
+            </div>  
+            <div class="form-group">
+           <label for="exampleInput">Expected Duration:</label>
+            <input type="text" class="form-control" id="name" aria-describedby="phone" name="dur">
+           </div> 
+           <div class="form-group">
+           <label for="exampleInput">Estimated Cost:</label>
+            <input type="text" class="form-control" id="name" aria-describedby="phone" name="est" required="">
+           </div>
+           <div class="form-group">
+           <label for="exampleInput">Board Approval:</label>
+            <input type="text" class="form-control" id="name" aria-describedby="phone" name="bp" required="">
+           </div>
+           <div class="form-group">
+           <label for="exampleInput">Board Condition:</label>
+            <input type="text" class="form-control" id="name" aria-describedby="phone" name="bcot" required="">
+           </div>
+           <div class="form-group">
+           <label for="exampleInput">Department WorkPlan:</label>
+            <input type="text" class="form-control" id="name" aria-describedby="phone" name="depwp" required="">
+           </div>
+             <div class="form-group">
+            <label class="col-sm-16 control-label"> Add Project Member: </label>
+            <div class="col-lm-16">
+            <select name="names" id=""  class="form-control" required> 
+            <option value="">Add project member</option>
+            <?php $sql = "SELECT FullName  FROM project_team WHERE FullName NOT IN('admin')";
+            $stmt2 = $db->prepare($sql);
+            $stmt2->execute();
+            $res=$stmt2->get_result();
+            while($row=$res->fetch_object())
+            {
+            ?>
+            <option  value="<?php echo $row->FullName;?>"><?php echo $row->FullName;?></option>
+            <?php } ?>
+            </select>
+             </div>
+           </div> -->
+             
